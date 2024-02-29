@@ -8,6 +8,7 @@ import {Link,Redirect} from 'react-router-dom';
 import Ad_home from './admin_home';
 
 
+
 const Login2 = () => {
 
     const [username,setUsername]=useState('');
@@ -40,7 +41,6 @@ const Login2 = () => {
         <div className="outer2">
             <div className="toggle2">
             <LoginToggle></LoginToggle>
-
             </div>
         
             <h2 className="head2">Admin Login</h2>

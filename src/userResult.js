@@ -28,11 +28,11 @@ const UserResult = () => {
                     <h2>COEP e-voting portal</h2>
                 </div>
                 <div className="nav1_links">
-                <a href='./UserHome'>Home</a>
-
+                <Link to='./UserHome'>Home</Link>
                     <Link to='./CandidateProfile'>Candidates Profile</Link>
                     <Link to='./Voting'>Vote</Link>
-                    <a href='./UserResult'>Result</a>
+                    <Link to='./Result'>Result</Link>
+                    <Link to='./Login1'>Login</Link>
 
                 </div>
             </div>

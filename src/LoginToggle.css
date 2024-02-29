@@ -57,7 +57,7 @@
     bottom: 2px; /* Adjusted bottom spacing */
     background-color: white;
     -webkit-transition: 0.4s;
-    transition: 0.4s;
+    transition: transform 0.4s;
     border-radius: 50%;
 }
 

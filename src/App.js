@@ -37,10 +37,12 @@ function App() {
           <Route path='/LoginToggle'>
             <LoginToggle />
           </Route>
+          <Route path='/UserHome'>
+            <UserHome/>
+          </Route>
           <Route path='/'>
             {/* Default route, you may want to render your Login components here */}
             <Login1 />
-            <UserHome />
           </Route>
         </Switch>
       </div>
