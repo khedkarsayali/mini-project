@@ -1,0 +1,103 @@
+/* cdForm new blog form */
+*{
+    margin:0;
+    padding:0;
+  }
+
+  .addCdFormPage{ 
+    background-color:rgba(255, 255, 255, 0.69);
+    
+  
+  }
+
+.wrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  align-items: center;
+  padding:0px;
+  margin-top: 60px;
+ 
+  
+
+}
+.infoForm{
+    display: flex;
+    position: relative;
+    background-image: url("./img/back2.jpg");
+    align-content:center;
+    justify-content: center;
+    height:220px;
+    width:60%;
+    background-color: rgb(14, 111, 163);
+
+    
+   
+   
+}
+.infoForm h1{
+    position: absolute;
+    font-size: 45px;
+    top:25%;
+    left:10%;
+}
+
+.infoForm h3{
+    position: absolute;
+    font-size: 25px;
+    top:60%;
+    left:10%;
+}
+.infoForm h2{
+    position: absolute;
+    font-size: 25px;
+    top:45%;
+    left:10%;
+}
+
+.innForm{
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cdForm {
+    align-items: flex-end;
+    width:60%;
+    height:650px;
+   
+    background-color: rgb(213, 215, 216);
+    
+    
+  }
+  .cdForm label {
+    margin:1px 30px;
+    text-align: left;
+    display: block;
+  }
+  .cdForm h2 {
+    font-size: 20px;
+    color: #f1356d;
+    margin-bottom: 30px;
+  }
+  .cdForm input, .cdForm textarea, .cdForm select {
+    width: 700px;
+    
+    padding: 6px 10px;
+    margin: 16px 6px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    display: block;
+  }
+
+
+  .cdForm button {
+    background: #296e56;
+    color: #fff;
+    border: 0;
+    padding: 16px 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    cursor: pointer;
+  }

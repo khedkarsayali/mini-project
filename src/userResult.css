@@ -1,0 +1,89 @@
+
+*{
+    margin:0;
+    padding:0;
+  }
+
+  .uRPage{
+    background-image: url('./img/back7.jpg');
+    background-size: cover;
+    display:flex;
+  flex-direction: column;
+    padding-bottom: 20px;
+    min-height: 100vh;
+    flex-direction: column;
+    
+  
+  }
+
+  .winner{
+    background-color: rgb(144, 197, 244);
+    margin-top: 40px;
+    margin-left: 200px;
+    margin-right: 200px;
+    height:300px;
+    align-items: flex-start;
+  }
+
+  .winner h1{
+    margin:40px;
+    text-align: start;
+
+  }
+
+  .stsContainer{
+    background-color: rgb(251, 252, 252);
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 40px;
+    padding:30px;
+    min-height: 300px;
+
+  }
+
+  .stTitle{
+    text-align: start;
+    border-bottom: 2px solid black;
+    padding: 25px;
+  }
+
+  .UserVoteSt{
+    display:flex;
+    background-color: rgb(251, 252, 252);
+    width:80%;
+    margin-top: 40px;
+    padding:30px;
+    min-height: 300px;
+    justify-content: center;
+    
+  }
+
+  .UserVoteSt table{
+    
+    background-color: rgb(252, 252, 251);
+    width:100%;
+    
+    
+  }
+
+  .UserVoteSt table, th, td {
+    border: 1px solid;
+    border-collapse: collapse;
+  }
+
+  .UserVoteSt table th{
+    height:30px;
+  }
+
+  #spanName{
+    width:70%;
+  }
+
+  
+
+  .UperVotes{
+    display:flex;
+    background-color: rgb(255, 163, 127);
+    width:45%;
+
+  }
